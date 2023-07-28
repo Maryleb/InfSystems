@@ -1,0 +1,154 @@
+body {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: Raleway,sans-serif;
+  font-weight: bold;
+ }
+
+h1 {
+  font-size: 6vw;
+}
+
+.title {
+  color: white;
+  background-color: rgb(33, 215, 124);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.discription {
+  font-weight: 300;
+}
+
+.button {
+border: 0;
+border-radius: 20px;
+background:rgb(33, 215, 124);
+color: #ffffff;
+padding: 10px 10px;
+font-size: 1vw;
+cursor: pointer;
+font-weight:300;
+margin-bottom: 20px;
+}
+
+.button:hover {
+background: rgb(28, 171, 100);
+}
+
+.button:focus {
+outline: none;
+box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.system li p {
+  color: rgba(0, 0, 0, 0.645);
+  font-size: 1vw;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.system {
+  width: 100%;
+  margin: auto auto 10px auto;
+}
+
+.system ul {
+  width: 70%;
+  padding: 0;
+  font-size: 1.3vw;
+  margin: auto;
+  font-weight: 300;
+  max-width: 900px;
+}
+
+.system li {
+  display: grid;
+  grid-template-columns: 25fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid rgb(33, 215, 124) 0.15vw;
+  padding: 0.5vw;
+  list-style-type: none;
+}
+
+span.left {
+  text-align: left;
+}
+
+span.right {
+  text-align: right;
+  font-size: 2.5vw;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 1vw;
+  font-weight: lighter;
+  padding: 0;
+}
+.link:hover {
+  border-bottom: 1px solid black;
+}
+
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+}
+
+.modal.active {
+  transform: scale(1);
+}
+
+.modal_content {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: white;
+  border: 3px solid rgb(33, 215, 124);
+  height: 500px;
+  width: 500px;
+}
+
+.input {
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  display: inline-block;
+  height: 30px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.input.text {
+  height: 80px;
+}
+
+.form_button {
+  border: 0;
+  border-radius: 20px;
+  background:rgb(33, 215, 124);
+  color: #ffffff;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight:300;
+  margin: 10px;
+}
+
+.form_button:hover {
+  background: rgb(28, 171, 100);
+  }
+.form_button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+  }
